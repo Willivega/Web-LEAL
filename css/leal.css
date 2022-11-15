@@ -1,0 +1,197 @@
+body{
+    background-image: url(../img/leal.png);
+  
+}
+
+nav{
+    background-color: rgb(10, 10, 10);
+    width: 900px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.menu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: relative;
+    left: 80px;
+}
+
+.menu li{
+
+    float: left;
+    position:relative;
+}
+
+.menu li a{
+    
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(18, 94, 94);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+    border: 1px solid rgb(61, 132, 132);
+    box-sizing: border-box;
+    transition: all 1s;
+
+    
+}
+
+.f-abajo{
+
+
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    
+}
+
+
+.f-izquierda{
+
+    background-image: url(../img/flecha6.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 120px center;
+
+}
+
+.menu li a:hover{
+
+    background-color: rgb(222, 238, 0);
+    color:rgb(0, 0, 0);
+}
+
+.menu li .submenu{
+
+    width: 150px;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.menu li:hover .submenu{
+
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li .submenu li{
+
+    position: relative;
+}
+
+.menu li .submenu li .lateral{
+
+    width: 150px;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top:0px;
+    left:150px;
+    display: none;
+}
+
+.menu li .submenu li:hover .lateral{
+
+    display:block;
+
+    /* 00000000000000000000 */
+
+    background-color: rgb(223, 12, 93);
+}
+
+main{
+    background-color: rgb(41, 247, 202);
+    width: 960px;
+    min-height: 1000px;
+    margin:30px auto;
+    padding: 1px;
+    border: 5px solid rgb(0, 0, 0);
+   
+}
+
+header{
+    background-image: url(/img/acc.png);
+    width: 900px;
+    height: 200px;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+	
+	.facebook{
+		background-image: url(../img/redes-sociales/facebook.png);
+	}
+	.youtube{background-image:url(../img/redes-sociales/youtube.png);
+	}
+
+
+#separador{
+    background-image: url(/img/255.jpg);
+    background-repeat:no-repeat ;
+    width:1000px;
+    height: 260px;
+    margin: 10px auto;
+    position: relative;
+    float: left;
+    
+}
+
+article{
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 380px;
+    float: left;
+    margin-left:30px;
+    margin-bottom: 10px;
+    border: 5px solid rgb(27, 226, 160);
+     
+}
+
+/*esto es un comentario*/
+
+article section video{
+    width: 298px;
+    
+    
+}
+
+
+
+
+
+
+
+aside{
+    background-color: rgb(20, 245, 189);
+    width: 280px;
+    height:380px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 200px;
+    margin: 10px auto;
+    
+}
+
+	
+

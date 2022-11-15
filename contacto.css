@@ -1,0 +1,136 @@
+
+body{
+    background-image: url(../img/leal.png);
+  
+}
+
+nav{
+    background-color: rgb(241, 239, 239);
+    width: 300px;
+    height: 45px;
+    margin: 50px auto;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.menu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.menu li{
+
+    float: left;
+    position:relative;
+}
+
+.menu li a{
+    
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(33, 153, 43);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+    box-sizing: border-box;
+    transition: all 1s;
+    position: relative;
+    left: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5.3cm;
+    
+}
+ 
+
+
+.menu li a:hover{
+
+    background-color: rgb(21, 82, 139);
+    color:rgb(255, 255, 255);
+}
+
+
+main{
+    background-color: rgb(33, 153, 43);
+    width: 960px;
+    min-height: 900px;
+    margin:30px auto;
+    padding: 1px;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+
+header{
+    background-image: url(/img/leal/21.png);
+    width: 900px;
+    height: 250px;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+	
+
+#wap{
+    background-image: url(/img/redes-sociales/wapp.png);
+    background-repeat:no-repeat ;
+    width:1000px;
+    height: 260px;
+    margin: 10px auto;
+    position: relative;
+    left: 350px;
+    
+
+}
+
+
+
+
+header #redes{
+	background-color:rgb(146, 129, 129);
+	width:33.33%;/*300px*/
+	height:50px;
+	float:right;
+	margin-top:120px;
+	margin-right:3.33%;/*30px*/
+	}
+	#redes a{display:block;
+    width: 15%; /*45*/
+	height: 45px;
+	float:left;
+	margin-left: 1.666%;
+	
+    }
+	.facebook{background-image: url(../img/redes-sociales/facebook.png);
+	background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+   
+    }
+    .twitter{background-image:url(../img/redes-sociales/twitter.png);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 138px;
+    }
+    
+    .youtube{background-image:url(../img/redes-sociales/youtube.png);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 35px;
+    }
+    .instagram{background-image: url(/img/redes-sociales/instagram.png);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 14px;
+}
+
+    footer{
+        background-color: black;
+        width: 900px;
+        height: 200px;
+        margin: 50px auto;
+        
+    }
+  

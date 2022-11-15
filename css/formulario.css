@@ -1,0 +1,64 @@
+body{
+
+    background-color: aqua;
+}
+
+
+label{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    left: 10px;
+    margin-top: 20px;
+    margin: 10px;
+
+   
+}
+
+
+input{
+
+width: 200px;
+text-align: center;
+
+}
+            /* input[name="Sexo"] {
+
+            text-align: center;
+            }
+            nav.headernav input[name=""] {
+                
+                position: relative;
+                right: 300px;
+            } */
+
+    input[type="radio"]{
+
+    position: relative;
+    right: 10px;
+    
+    
+    
+    
+
+
+}
+            
+
+
+main{
+        background-color: rgb(255, 251, 0);
+        width: 600px;
+        min-height: 200px;
+        margin:200px auto;
+        padding: 10px;
+        border: 5px solid rgb(0, 0, 0);
+        text-align: center;
+        
+    }
+    
+  
+
+
